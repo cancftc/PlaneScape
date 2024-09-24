@@ -23,6 +23,8 @@ Bir havalimanı API’si ile basitçe uçuş bilgilerinin listelenebilmesi ve ku
 
 [Uygulama Uçuşlarım Sayfası](./Frontend/public/Video_2024_09_24-4.webm)
 
+[Video_2024_09_24-4 (1).webm](https://github.com/user-attachments/assets/a4c9258f-3af8-4f04-b207-050586389e00)
+
 ### Kullanıcı Arayüzü (UI)
 
 - Uçuşların Listelenmesi 
