@@ -13,6 +13,8 @@ Bir havalimanı API’si ile basitçe uçuş bilgilerinin listelenebilmesi ve ku
 
 ### Uygulama Resimleri
 
+![Ekran Görüntüsü (210)](https://github.com/user-attachments/assets/dd100f01-9066-4f53-b390-b34af2432342)
+
 [Uygulama Ana Sayfası](./Frontend/public/Ekran%20Görüntüsü%20(210).png)
 [Uygulama Ana Sayfası](./Frontend/public/Ekran%20Görüntüsü%20(211).png)
 [Uygulama Uçuşlarım Sayfası](./Frontend/public/Ekran%20Görüntüsü%20(212).png)
