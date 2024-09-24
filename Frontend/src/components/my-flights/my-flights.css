@@ -1,0 +1,390 @@
+.my-flights{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.my-flights-wrapper{
+    width: 70%;
+}
+
+.my-flights-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header-left{
+    display: flex;
+    gap: 10px;
+}
+.header-left div{
+    display: flex;
+    gap: 10px;
+}
+.header-left button{
+    background-color: white;
+    border: 1px solid #dee0ea;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.header-left select{
+    border: none;
+    color: blue;
+}
+
+.header-rigth{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-rigth strong{
+    height: 20px;
+    width: 2px;
+    background-color: #dee0ea;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.start div{
+    margin-bottom: -10px !important;
+}
+
+.start i{
+    font-size: 13px;
+    color: #d3d4d7;
+}
+
+.start .color{
+    color: rgb(31, 31, 31);    
+}
+
+.my-flights-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.content-left{
+    display: flex;
+    gap: px;
+    align-items: center;
+}
+
+.content-rigth{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-left select{
+    border: none;
+    background-color: #f0f2f5;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content-content{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.content-rigth{
+    display: felx;
+    gap: 5px;
+}
+
+.content-rigth button{
+    background-color: white;
+    border: 1px solid #dee0ea;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-content img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dee0ea;
+    border-radius: 50%;
+}
+
+.content-content-left{
+    display: flex;
+    gap: 20px;
+}
+
+.content-bottom{
+    display: flex;
+    gap: 100px;
+}
+
+.content-bottom select{
+    border: none;
+    color: blue;
+    margin-left: -4px;
+}
+
+.content-date{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.main{
+    color: #97999d;
+}
+
+.dock{
+    font-size: 30px;
+    color: #e1e3e9;
+    margin-top: -10px;
+}
+
+.dock-wrapper{
+    background-color: #f0f2f5 !important;
+    border: none !important;
+}
+
+.none{
+    color: #97999d;
+    font-size: 15px;
+}
+
+@media (max-width: 1900px) {
+    .my-flights-wrapper{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .my-flights-wrapper{
+        width: 83%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .my-flights-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .my-flights-wrapper{
+        width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .my-flights-wrapperr{
+    width: 95%;
+}
+
+.header-left{
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+.header-left button{
+    width: 155px;
+}
+
+.start div{
+    margin-bottom: 0px !important;
+}
+
+.start i{
+    font-size: 15px;
+}
+
+.content-bottom{
+    gap: 55px;
+    margin-left: -55px;
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 1020px) {
+    .my-flights-header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0px !important;
+    }
+
+    .content-content{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-left button{
+        width: 225px;
+    }
+
+    .content-bottom{
+        gap: 155px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+
+    .content-rigth button{
+        width: 123px;
+    }
+
+    .start i{
+        font-size: 20px;
+    }
+
+    .header-rigth{
+        gap: 30px;
+    }
+
+    .header-rigth strong{
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-href{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+        margin-right: 10px !important; 
+        cursor: pointer;
+    }
+
+    .my-flights-wrapper{
+        width: 80%;
+    }
+
+    .my-flights-header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0px !important;
+    }
+
+    .content-content{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-rigth{
+        gap: 5px;
+    }
+
+    .content-rigth button{
+        width: 85px;
+    }
+
+    .header-left button{
+        width: 125px;
+    }
+
+    .start i{
+        font-size: 20px;
+    }
+
+    .content-content{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .content-bottom{
+        gap: 55px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+
+    .content-content-left img{
+        margin-left: -10px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-flights-wrapper{
+        width: 90%;
+    }
+
+    .my-flights-header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0px !important;
+    }
+
+    .header-left{
+        flex-direction: column;
+    }
+
+    .header-left button{
+        width: 125px;
+    }
+
+    .content-content{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .content-bottom{
+        gap: 55px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+
+    .content-content-left img{
+        margin-left: -10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .content-rigth button{
+        width: 75px;
+    }
+
+    .content-date{
+        font-size: 22px;
+    }
+
+    .start i{
+        font-size: 16px;
+    }
+    .header-rigth strong{
+        margin-top: -10px;
+    }
+
+    .header-rigth{
+        gap: 13px;
+    }
+    }

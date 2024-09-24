@@ -1,0 +1,153 @@
+.header{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      height: 100%;
+      position: relative;
+  }
+  
+  .header-right{
+      display: flex;
+      gap: 20px;
+  }
+  
+  .header-href{
+      display: flex;
+      gap: 25px;
+  }
+  
+  .header-left i{
+      font-size: 20px;
+      color: white;
+  }
+  
+  .icon{
+      color: black;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }
+  
+  .icon i{
+      color: white;
+      background-color: #3a1792;
+      padding: 8px;
+      height: 17px;
+      width: 17px;
+      font-size: 17px;
+      border-radius: 50%;
+  }
+  
+  .link{ 
+    color: black;
+    font-size: 16px;
+      text-decoration: none;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+  }
+  
+  .link i{
+      color: #3a1792;
+  }
+  
+  .profile-img{
+      width: 40px;
+      border-radius: 50%;
+      border: 1px solid #dee0ea;
+  }
+  
+  .bars{
+      display: none;
+  }
+  
+  .sidebar{
+      background-color: #f0f2f5;
+      border-left: 1px solid #dee0ea;
+      width: 300px;
+      margin-top: -70px;
+      height: 100vh;
+      z-index: 100;
+      position: fixed;
+      right: 0;
+      display: none;
+  }
+  .sidebar.show {
+      display: block;
+    }
+  
+    .xmark{
+      font-size: 30px;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    .sidebar-link{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+  @media (max-width: 1900px) {
+      .header-wrapper{
+          width: 80%;
+      }
+  }
+  
+  @media (max-width: 1800px) {
+      .header-wrapper{
+          width: 83%;
+      }
+  }
+  
+  @media (max-width: 1600px) {
+      .header-wrapper{
+          width: 90%;
+      }
+  }
+  
+  @media (max-width: 1400px) {
+      .header-wrapper{
+          width: 95%;
+      }
+  }
+  
+  @media (max-width: 1200px) {
+  .header-wrapper{
+      width: 95%;
+  }
+  }
+  
+  @media (max-width: 850px) {
+      .header-href{
+          display: none;
+      }
+  
+      .bars{
+          display: block;
+          margin-right: 10px !important; 
+          cursor: pointer;
+      }
+  
+      .header-wrapper{
+          width: 80%;
+      }
+  }
+  
+  @media (max-width: 600px) {
+      .header-wrapper{
+          width: 90%;
+      }
+      }
