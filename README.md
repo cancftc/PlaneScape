@@ -4,7 +4,8 @@ Bir havalimanı API’si ile basitçe uçuş bilgilerinin listelenebilmesi ve ku
 
 ### NOT 
 
-- Frontend klasörünü çalıştırırken bu hatayı " Access to XMLHttpRequest at 'https://api.schiphol.nl/public-flights/flights' from origin 'http://localhost:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. "
+- Frontend klasörünü çalıştırırken aşşağıdaki hatayı alırsanız "Çalıştır(Windows + R)" penceresi ni açın ve komutu çalıştırın "chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security".
+- " Access to XMLHttpRequest at 'https://api.schiphol.nl/public-flights/flights' from origin 'http://localhost:5173' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. "
 alırsanız "Çalıştır(Windows + R)" penceresi ni açın ve komutu çalıştırın "chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security".
 - API'de uçuşun hangi ülkeler arasında olsuğu belirtilmemiş bunun icin gidiş bilinmiyor. iniş yapacağı yeri havalimanın ın koduna göre gösterildi.
 - API'de uçuşun hangi ülkeler arasında olduğu verilmediği icin ucuşa göre filtreleme yapılmadı.
